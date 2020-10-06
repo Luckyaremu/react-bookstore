@@ -23,7 +23,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here]()
+[Click here](https://react-bookstorw.herokuapp.com/)
 
 ## Getting Started
 
