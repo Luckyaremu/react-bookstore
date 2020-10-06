@@ -2,8 +2,6 @@
 
 # React Bookstore
 
-![screenshot]()
-
 In this project I:
 
 - Used React-Redux to build a bookstore app.
