@@ -2,11 +2,7 @@
 
 # React Bookstore
 
-![screenshot]()
-
-In this project I:
-
-- Used React-Redux to build a bookstore app.
+In this project i used React and Redux to build a very simple application. To work in a real-world project for a fictional company that requires help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that needs to be implemented.
 
 # What it does
 
@@ -23,7 +19,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here]()
+[Click here](https://react-bookstorw.herokuapp.com/)
 
 ## Getting Started
 
