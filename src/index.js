@@ -18,8 +18,6 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 serviceWorker.register();
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
