@@ -1,11 +1,12 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import '../styles/BooksList.scss';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import Book from '../components/Book';
 import CategoryFilter from '../components/CategoryFilter';
-import userImage from '../assets/images/user.png';
 import { removeBook, filterBook } from '../actions/index';
 import filteredBooks from '../logic/filter';
+import userImage from '../assets/images/user.png';
 
 const BooksList = ({
   books, filter, removeBook, filterBook,
@@ -32,27 +33,6 @@ const BooksList = ({
       ))
     }
   </div>
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import Book from '../components/Book';
-
-const BooksList = ({ books }) => (
-  <table>
-    <thead>
-      <tr>
-        <th>Book ID</th>
-        <th>Title</th>
-        <th>Category</th>
-      </tr>
-    </thead>
-    <tbody>
-      {
-          books.map(book => (
-            <Book key={book.id} book={book} />
-          ))
-        }
-    </tbody>
-  </table>
 );
 
 const mapStateToProps = state => ({
@@ -73,6 +53,3 @@ BooksList.propTypes = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(BooksList);
-};
-
-export default connect(mapStateToProps, null)(BooksList);

@@ -4,6 +4,7 @@ import { v1 as uuidv1 } from 'uuid';
 import PropTypes from 'prop-types';
 import { createBook } from '../actions/index';
 import CATEGORIES from '../constants/Categories';
+import '../styles/BooksForm.scss';
 
 class BooksForm extends React.Component {
   constructor(props) {
@@ -75,21 +76,3 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default connect(null, mapDispatchToProps)(BooksForm);
-=======
-import CATEGORIES from '../constants/Categories';
-
-const BooksForm = () => (
-  <form>
-    <input type="text" value="" name="title" />
-    <select value="" name="category">
-      {
-          CATEGORIES.map(category => (
-            <option key={category} value={category}>{category}</option>
-          ))
-        }
-    </select>
-    <button type="submit">Submit</button>
-  </form>
-);
-
-export default BooksForm;
