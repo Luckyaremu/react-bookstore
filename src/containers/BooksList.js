@@ -1,33 +1,54 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import Book from '../components/Book';
+import CategoryFilter from '../components/CategoryFilter';
+import userImage from '../assets/images/user.png';
+import { removeBook, filterBook } from '../actions/index';
+import filteredBooks from '../logic/filter';
 
-const BooksList = ({ books }) => (
-  <table>
-    <thead>
-      <tr>
-        <th>Book ID</th>
-        <th>Title</th>
-        <th>Category</th>
-      </tr>
-    </thead>
-    <tbody>
-      {
-          books.map(book => (
-            <Book key={book.id} book={book} />
-          ))
-        }
-    </tbody>
-  </table>
+const BooksList = ({
+  books, filter, removeBook, filterBook,
+}) => (
+  <div>
+    <div className="main-container">
+      <div className="nav-container d-flex">
+        <div className="logo"> Bookstore CMS</div>
+        <CategoryFilter handleFilterChange={filterBook} />
+        <div className="image-container">
+          <img src={userImage} alt="user" />
+        </div>
+      </div>
+    </div>
+    {
+      filteredBooks(filter, books).map(book => (
+        <Book
+          key={book.id}
+          title={book.title}
+          category={book.category}
+          id={book.id}
+          removeBook={removeBook}
+        />
+      ))
+    }
+  </div>
 );
 
 const mapStateToProps = state => ({
   books: state.books,
+  filter: state.filter,
+});
+
+const mapDispatchToProps = dispatch => ({
+  removeBook: id => dispatch(removeBook(id)),
+  filterBook: category => dispatch(filterBook(category)),
 });
 
 BooksList.propTypes = {
   books: PropTypes.instanceOf(Array).isRequired,
+  removeBook: PropTypes.func.isRequired,
+  filter: PropTypes.string.isRequired,
+  filterBook: PropTypes.func.isRequired,
 };
 
-export default connect(mapStateToProps, null)(BooksList);
+export default connect(mapStateToProps, mapDispatchToProps)(BooksList);
