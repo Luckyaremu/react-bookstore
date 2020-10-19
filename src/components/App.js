@@ -1,6 +1,8 @@
+/* eslint-disable no-case-declarations */
+/* eslint-disable consistent-return */
 import React from 'react';
-import BooksList from '../containers/BooksList';
-import BooksForm from '../containers/BooksForm';
+import BooksList from '../containers/BooksForm';
+import BooksForm from '../containers/BooksList';
 
 const App = () => (
   <div className="container">
