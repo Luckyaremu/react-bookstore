@@ -1,4 +1,6 @@
-/* eslint-disable */
+/* eslint-disable no-case-declarations */
+/* eslint-disable consistent-return */
+
 .App {
   text-align: center;
 }
@@ -37,5 +39,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* eslint-enable */
