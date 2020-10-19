@@ -1,7 +1,6 @@
 /* eslint-disable no-case-declarations */
 /* eslint-disable consistent-return */
 import React from 'react';
-import '../styles/BooksList.scss';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Book from '../components/Book';
