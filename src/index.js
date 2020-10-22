@@ -1,3 +1,5 @@
+/* eslint-disable no-case-declarations */
+/* eslint-disable consistent-return */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
