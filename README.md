@@ -1,5 +1,3 @@
-[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Murilo-Click%20to%20Contact-brightgreen)](mailto:muriloengqui@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/MuriloRoquePai1?label=Follow%20Murilo%20on%20Twitter&style=social)](https://twitter.com/MuriloRoquePai1)
-
 # React Bookstore
 
 ![screenshot](src/assets/images/screenshot.png)
@@ -23,7 +21,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here](https://murilo-react-bookstore.herokuapp.com/)
+[Click here]()
 
 ## Getting Started
 
@@ -37,11 +35,11 @@ In this project I:
 
 Murilo Roque Paiva da Silva
 
-Github: [@MuriloRoque](https://github.com/MuriloRoque)
+Github: [@Luckyaremu](https://github.com/Luckyaremu)
 
-Twitter: [@MuriloRoquePai1](https://twitter.com/MuriloRoquePai1)
+Twitter: [@Luckyaremu](https://twitter.com/Luckyaremu)
 
-Linkedin: [MuriloRoque](https://www.linkedin.com/in/murilo-roque-b1268741/)
+Linkedin: [Aremu Lucky Baba](https://www.linkedin.com/in/lucky-aremu-24807a145/)
 
 ## 🤝 Contributing
 
