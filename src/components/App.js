@@ -5,6 +5,11 @@ import BooksForm from '../containers/BooksForm';
 
 const App = () => (
   <div className="container">
+import BooksList from '../containers/BooksForm';
+import BooksForm from '../containers/BooksList';
+
+const App = () => (
+  <div>
     <BooksList />
     <br />
     <BooksForm />
