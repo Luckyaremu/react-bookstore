@@ -1,10 +1,10 @@
+# react-bookstore
+In this project you will use React and Redux to build a very simple application. You will work in a real-world project for a fictional company that requires your help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
+
 # React Bookstore
 
-![screenshot](src/assets/images/screenshot.png)
 
-In this project I:
-
-- Used React-Redux to build a bookstore app.
+In this project i used React and Redux to build a very simple application. To work in a real-world project for a fictional company that requires help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that needs to be implemented.
 
 # What it does
 
@@ -21,7 +21,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here]()
+[Click here](https://react-bookstorw.herokuapp.com/)
 
 ## Getting Started
 
@@ -31,15 +31,16 @@ In this project I:
 - Run `npm start`, the page will automatically load on [localhost:3000](localhost:3000);
 - Run `npm test` to run the tests.
 
-## Author
 
-Murilo Roque Paiva da Silva
+## Authors
 
-Github: [@Luckyaremu](https://github.com/Luckyaremu)
+**Aremu Lucky**
 
-Twitter: [@Luckyaremu](https://twitter.com/Luckyaremu)
+- Github: [@githubhandle](https://github.com/Luckyaremu)
 
-Linkedin: [Aremu Lucky Baba](https://www.linkedin.com/in/lucky-aremu-24807a145/)
+- Twitter: [@twitterhandle](@luckyaremu)
+
+- Linkedin: [linkedin](https://www.linkedin.com/in/lucky-aremu-24807a145/)
 
 ## 🤝 Contributing
 
