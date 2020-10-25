@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react';
 import PropTypes from 'prop-types';
 import CATEGORIES from '../constants/Categories';
+import '../styles/CategoryFilter.scss';
 
 const CategoryFilter = ({ handleFilterChange }) => {
   const filterChange = useCallback(event => {

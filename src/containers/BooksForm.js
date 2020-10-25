@@ -4,6 +4,7 @@ import { v1 as uuidv1 } from 'uuid';
 import PropTypes from 'prop-types';
 import { createBook } from '../actions/index';
 import CATEGORIES from '../constants/Categories';
+import '../styles/BooksForm.scss';
 
 class BooksForm extends React.Component {
   constructor(props) {

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Book.scss';
 
 const Book = ({
   id, title, category, removeBook,
