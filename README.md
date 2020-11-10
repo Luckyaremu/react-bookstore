@@ -24,7 +24,7 @@ In this project i used React and Redux to build a very simple application. To wo
 
 ## Live Demo
 
-[Click here](https://react-bookstorw.herokuapp.com/)
+[Click here](https://loving-visvesvaraya-bdb287.netlify.app/)
 
 ## Getting Started
 
